@@ -1,6 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestGithub {
@@ -10,7 +11,14 @@ public class TestGithub {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://google.com");
-driver.close();
+        driver.close();
 
     }
+@Test
+    public void methodYaneth() {
+
+        Assert.assertEquals("Actual", "Actual");
+
+    }
+
 }
