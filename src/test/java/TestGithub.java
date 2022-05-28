@@ -18,7 +18,7 @@ public class TestGithub {
     public void methodYaneth() {
 
         Assert.assertEquals("Actual", "Actual");
-
+        System.out.println("second test");
     }
 
 }
