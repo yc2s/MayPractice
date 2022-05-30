@@ -15,6 +15,7 @@ public class NewClassTest {
     }
 
     @Test
+
     public void spectreMethod() {
         System.out.println("This is the Spectre branch");
         Assert.assertEquals("spectre","spectre");
